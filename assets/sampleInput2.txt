@@ -1,0 +1,15 @@
+kate
+lolly
+P p 4 9
+Y p 9 4
+W p 7 11
+I1 p 10 6
+Y f r r p 10 13
+I2 p 11 7
+I3 p 3 10
+L5 r r r p 13 6
+I1 p 3 6
+V3 p 9 9
+I2 p 2 7
+F p 11 11
+T4 r r r p 13 11

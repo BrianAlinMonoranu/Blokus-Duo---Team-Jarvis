@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="32" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="189">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+  <image source="game_squares.png" width="96" height="64"/>
+ </tileset>
+ <imagelayer id="2" name="bg" offsetx="-65.3333" offsety="0.000303333">
+  <image source="buildings.png" width="1244" height="770"/>
+ </imagelayer>
+ <layer id="1" name="Board" width="32" height="24" locked="1">
+  <properties>
+   <property name="offsetY" type="int" value="5"/>
+   <property name="originX" type="int" value="9"/>
+   <property name="originY" type="int" value="18"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHNkdEKwzAMA/uw7f8/eb2xAyFSGHWhC3SWHNuXZNt273p+8UZPs/Kdo5Zc5ts/HPiN6VNnn9q5ekelP9LWwpCj1lMjw3pj5lu3t4eYe5lXJxttvdG6q2LyembuNT/9a28888FLxsrLIaqpS32GTQ8Lfp6hdXI+DfuPZ3Fvwncm0bN4BqIM9lPjXVO+POcZM5937nNM+DDyk21slnmiexN+zlN7b6IMYmv9hO/dYat/4VPvupLvTGLeP/OtJ/yeld53INfvn3UTvm/OvOQ53//YSD41fspnBqv5eFnE1vopXy7Rb5d/8f97R87jG2SO/OT+9Htn34EcCy9L9mfjwh/Zq5F9nlVN5o5mdb59zlhp34C91FnbM9MfafvZd6Um57vLTW+OuuxLXu+1t9b+9ObouWu9Ab8mB7o=
+  </data>
+ </layer>
+ <objectgroup id="3" name="BPF" locked="1">
+  <object id="122" name="I1" x="0" y="64">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-32 32,-32 32,0"/>
+  </object>
+  <object id="123" name="I2" x="0" y="160">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-64 32,-64 32,0"/>
+  </object>
+  <object id="124" name="I3" x="0" y="288">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-96 32,-96 32,0"/>
+  </object>
+  <object id="125" name="I4" x="0" y="448">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-128 32,-128 32,0"/>
+  </object>
+  <object id="126" name="I5" x="0" y="640">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-160 32,-160 32,0"/>
+  </object>
+  <object id="127" name="T4" x="32" y="736">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 64,0 64,-32 32,-32 32,-64 0,-64 0,-32 -32,-32 -32,0"/>
+  </object>
+  <object id="128" name="L5" x="128" y="736">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-64 32,-64 32,-32 128,-32 128,0"/>
+  </object>
+  <object id="129" name="N" x="96" y="608">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 -32,0 -32,32 0,32 32,32 32,0 96,0 96,-32 0,-32"/>
+  </object>
+  <object id="130" name="U" x="64" y="512">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-64 64,-64 64,-32 32,-32 32,0 64,0 64,32 0,32"/>
+  </object>
+  <object id="131" name="V5" x="160" y="544">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-96 32,-96 32,-32 96,-32 96,0 0,0"/>
+  </object>
+  <object id="132" name="O4" x="64" y="416">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-64 64,-64 64,0"/>
+  </object>
+  <object id="133" name="Z5" x="192" y="384">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,32 -32,32 -32,-32 32,-32 32,-64 64,-64 64,0"/>
+  </object>
+  <object id="134" name="Y" x="96" y="320">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-64 32,-64 32,-32 96,-32 96,0"/>
+  </object>
+  <object id="135" name="L4" x="64" y="224">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-96 32,-96 32,-32 64,-32 64,0"/>
+  </object>
+  <object id="136" name="V3" x="64" y="96">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,-64 32,-64 32,-32 64,-32 64,0"/>
+  </object>
+  <object id="137" name="X" x="192" y="96">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-64 32,-64 32,-32 64,-32 64,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="138" name="W" x="320" y="96">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,32 -32,32 -32,-32 0,-32 0,-64 64,-64 64,-32 32,-32 32,0"/>
+  </object>
+  <object id="139" name="Z4" x="416" y="128">
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-64 64,-64 64,-32 32,-32 32,0"/>
+  </object>
+  <object id="140" name="P" x="512" y="64">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,64 32,64 32,32 64,32 64,-32 0,-32"/>
+  </object>
+  <object id="141" name="F" x="640" y="96">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 0,32 32,32 32,-32 64,-32 64,-64 0,-64 0,-32 -32,-32 -32,0"/>
+  </object>
+  <object id="142" name="T5" x="192" y="256">
+   <properties>
+    <property name="selected" type="bool" value="false"/>
+   </properties>
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-96 32,-96 32,-32 64,-32 64,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="WPF" visible="0" locked="1">
+  <object id="152" name="O4" x="768" y="416">
+   <polygon points="0,0 0,-64 64,-64 64,0"/>
+  </object>
+  <object id="154" name="L4" x="768" y="224">
+   <polygon points="0,0 0,-96 32,-96 32,-32 64,-32 64,0"/>
+  </object>
+  <object id="155" name="V3" x="768" y="96">
+   <polygon points="0,0 0,-64 32,-64 32,-32 64,-32 64,0"/>
+  </object>
+  <object id="170" name="W" x="352" y="704">
+   <polygon points="0,0 32,0 32,-32 64,-32 64,-64 0,-64 0,-32 -32,-32 -32,32 0,32 0,0"/>
+  </object>
+  <object id="171" name="Z4" x="448" y="736">
+   <polygon points="0,0 32,0 32,-32 64,-32 64,-64 0,-64 0,-32 -32,-32 -32,0 0,0"/>
+  </object>
+  <object id="173" name="F" x="672" y="704">
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-64 64,-64 64,-32 32,-32 32,32 0,32"/>
+  </object>
+  <object id="174" name="T4" x="800" y="736">
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-64 32,-64 32,-32 64,-32 64,0"/>
+  </object>
+  <object id="175" name="L5" x="896" y="736">
+   <polygon points="0,0 0,-64 32,-64 32,-32 128,-32 128,0 0,0"/>
+  </object>
+  <object id="176" name="N" x="800" y="608">
+   <polygon points="0,0 0,-32 96,-32 96,0 32,0 32,32 -32,32 -32,0 0,0"/>
+  </object>
+  <object id="178" name="U" x="768" y="512">
+   <polygon points="0,0 0,-64 64,-64 64,-32 32,-32 32,0 64,0 64,32 0,32"/>
+  </object>
+  <object id="179" name="I5" x="992" y="640">
+   <polygon points="0,0 0,-160 32,-160 32,0"/>
+  </object>
+  <object id="180" name="I4" x="992" y="448">
+   <polygon points="0,0 0,-128 32,-128 32,0"/>
+  </object>
+  <object id="181" name="I3" x="992" y="288">
+   <polygon points="0,0 0,-96 32,-96 32,0"/>
+  </object>
+  <object id="182" name="I2" x="992" y="160">
+   <polygon points="0,0 0,-64 32,-64 32,0"/>
+  </object>
+  <object id="183" name="I1" x="992" y="64">
+   <polygon points="0,0 0,-32 32,-32 32,0"/>
+  </object>
+  <object id="184" name="Z5" x="896" y="384">
+   <polygon points="0,0 64,0 64,-64 32,-64 32,-32 -32,-32 -32,32 0,32"/>
+  </object>
+  <object id="185" name="Y" x="800" y="320">
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-64 32,-64 32,-32 96,-32 96,0"/>
+  </object>
+  <object id="186" name="T5" x="896" y="256">
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-96 32,-96 32,-32 64,-32 64,0"/>
+  </object>
+  <object id="187" name="X" x="896" y="96">
+   <polygon points="0,0 -32,0 -32,-32 0,-32 0,-64 32,-64 32,-32 64,-32 64,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="188" name="V5" x="864" y="544">
+   <polygon points="0,0 0,-96 32,-96 32,-32 96,-32 96,0"/>
+  </object>
+  <object id="172" name="P" x="544" y="672">
+   <polygon points="0,0 0,-32 64,-32 64,32 32,32 32,64 0,64"/>
+  </object>
+ </objectgroup>
+</map>
